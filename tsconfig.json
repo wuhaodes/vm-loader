@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["ESNext"],
-    "target": "es2016",
+    "target": "ES2015",
     "allowJs": false,      
     "module": "commonjs", 
     "esModuleInterop": true,
@@ -9,10 +9,6 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
   },
   "include": ["src/**/*"],
   "buildOptions": {}

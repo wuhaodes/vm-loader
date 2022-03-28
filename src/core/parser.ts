@@ -1,4 +1,4 @@
-import is from "@/utils/is"
+import is from "../utils/is"
 export default new (class {
   /**
    * @description 获取样式标签内容及属性
